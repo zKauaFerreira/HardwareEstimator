@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calculator } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Card, CardHeader, CardTitle } from '../ui/card';
 
 const Header: React.FC = () => {
   return (

@@ -1,6 +1,4 @@
 import React from 'react';
-import { HelpCircle } from 'lucide-react';
-import { cn } from '../../utils/cn';
 import { Explanation } from '../../utils/types';
 
 interface ExplanationSidebarProps {

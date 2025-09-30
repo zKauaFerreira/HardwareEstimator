@@ -17,17 +17,17 @@ export const useScrollPosition = () => {
   return scrollPosition;
 };
 
-export const useAnimatedVisibility = (isVisible: boolean, delay: number = 0) => {
+export const useAnimatedVisibility = (isVisible: boolean, delay: number = 300) => {
   const [shouldRender, setShouldRender] = useState(isVisible);
 
   useEffect(() => {
     if (isVisible) {
       setShouldRender(true);
     } else {
-      const timer = setTimeout(() => setShouldRender(false), 300); // Match CSS transition duration
+      const timer = setTimeout(() => setShouldRender(false), delay); // Match CSS transition duration
       return () => clearTimeout(timer);
     }
-  }, [isVisible]);
+  }, [isVisible, delay]);
 
   return {
     shouldRender,

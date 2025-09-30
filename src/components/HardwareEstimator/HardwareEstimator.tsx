@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Calculator } from "lucide-react";
 import { questionsData } from "../../data/questionsData";
 import {
   calculateResources,
@@ -7,7 +6,6 @@ import {
   getAllAnswered,
 } from "../../utils/csvGenerator";
 import { AnswerState } from "../../utils/types";
-import QuestionCard from "./QuestionCard";
 import ExplanationModal from "./ExplanationModal";
 import Header from "./Header";
 import SidePanel from "./SidePanel";

@@ -1,4 +1,3 @@
-import React from 'react';
 import HardwareEstimator from './components/HardwareEstimator/HardwareEstimator';
 
 function App() {

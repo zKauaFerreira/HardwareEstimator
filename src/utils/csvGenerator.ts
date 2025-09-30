@@ -1,21 +1,8 @@
 import { questionsData } from '../data/questionsData';
-import { ResourceEstimates, AnswerState } from './types';
+import { ResourceEstimates as ResourceType, AnswerState as AnswerType, Weight } from './types';
 
-export interface ResourceEstimates {
-  cpu: number;
-  ram: number;
-  disk: number;
-}
-
-export interface AnswerState {
-  [key: string]: string;
-}
-
-export interface Weight {
-  cpu: number;
-  ram: number;
-  disk: number;
-}
+export type ResourceEstimates = ResourceType;
+export type AnswerState = AnswerType;
 
 export const calculateResources = (answers: AnswerState): ResourceEstimates => {
   let cpu = 2;
@@ -50,7 +37,7 @@ export const generateCSV = (answers: AnswerState, resources: ResourceEstimates):
       [questionsData.questions[1]?.category || '', questionsData.questions[1]?.question || '', answers[questionsData.questions[1]?.id] || '', '', 'RAM (GB)', resources.ram],
       [questionsData.questions[2]?.category || '', questionsData.questions[2]?.question || '', answers[questionsData.questions[2]?.id] || '', '', 'Disco (GB)', resources.disk],
       // Continuar com as demais perguntas (quando tiver mais recursos, ocupar colunas vazias)
-      ...questionsData.questions.slice(3).map((q, index) => [q.category, q.question, answers[q.id] || '', '', '', ''])
+      ...questionsData.questions.slice(3).map((q) => [q.category, q.question, answers[q.id] || '', '', '', ''])
     ];
     
     // Criar a planilha com os dados
@@ -62,7 +49,6 @@ export const generateCSV = (answers: AnswerState, resources: ResourceEstimates):
     ws['!merges'].push({ s: { r: 0, c: 4 }, e: { r: 0, c: 5 } }); // Mescla título da estimativa (E1:F1)
     
     // Aplicar estilos de forma mais robusta
-    const range = XLSX.utils.decode_range(ws['!ref'] || '');
     
     // Estilo para o título principal
     const titleCell = ws['A1'];

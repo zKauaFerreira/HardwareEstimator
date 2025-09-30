@@ -1,0 +1,20 @@
+{
+  "Baixo": { "cpu": 1, "ram": 1, "disk": 0 },
+  "Médio": { "cpu": 2, "ram": 4, "disk": 0 },
+  "Alto": { "cpu": 4, "ram": 8, "disk": 0 },
+  "Estático": { "cpu": 0, "ram": 1, "disk": 0 },
+  "Serviço dedicado": { "cpu": 1, "ram": 2, "disk": 0 },
+  "Existente": { "cpu": 0, "ram": 0, "disk": 0 },
+  "Dedicado": { "cpu": 1, "ram": 2, "disk": 20 },
+  "Não": { "cpu": 0, "ram": 0, "disk": 0 },
+  "Sim": { "cpu": 0, "ram": 0, "disk": 0 },
+  "<100MB": { "cpu": 0, "ram": 0, "disk": 10 },
+  "100MB–1GB": { "cpu": 0, "ram": 0, "disk": 50 },
+  ">1GB": { "cpu": 0, "ram": 0, "disk": 200 },
+  "30 dias": { "cpu": 0, "ram": 0, "disk": 20 },
+  "90 dias": { "cpu": 0, "ram": 0, "disk": 50 },
+  "1 ano+": { "cpu": 0, "ram": 0, "disk": 200 },
+  "<5GB": { "cpu": 0, "ram": 0, "disk": 10 },
+  "5–100GB": { "cpu": 0, "ram": 0, "disk": 50 },
+  ">100GB": { "cpu": 0, "ram": 0, "disk": 200 }
+}

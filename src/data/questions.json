@@ -1,0 +1,51 @@
+[
+  {
+    "id": "frontend_type",
+    "category": "Frontend",
+    "question": "O frontend será apenas uma página estática (Apache/Nginx) ou um serviço rodando (React, Angular, Vue etc.)?",
+    "options": ["Estático", "Serviço dedicado"]
+  },
+  {
+    "id": "frontend_heavy",
+    "category": "Frontend",
+    "question": "O frontend terá interações pesadas (gráficos, dashboards)?",
+    "options": ["Não", "Sim"]
+  },
+  {
+    "id": "backend_processing",
+    "category": "Backend",
+    "question": "O backend processará muitas informações? Tipo de processamento (CPU, RAM)?",
+    "options": ["Baixo", "Médio", "Alto"]
+  },
+
+  {
+    "id": "database_type",
+    "category": "Banco de Dados",
+    "question": "Podemos usar banco existente da empresa ou será necessário um novo dedicado?",
+    "options": ["Existente", "Dedicado"]
+  },
+  {
+    "id": "database_volume",
+    "category": "Banco de Dados",
+    "question": "Qual volume de dados previsto (MB, GB, TB)?",
+    "options": ["<5GB", "5–100GB", ">100GB"]
+  },
+  {
+    "id": "database_ha",
+    "category": "Banco de Dados",
+    "question": "O sistema precisa de alta disponibilidade (replicação, cluster)?",
+    "options": ["Não", "Sim"]
+  },
+  {
+    "id": "upload_volume",
+    "category": "Uploads/Disco",
+    "question": "O sistema permitirá upload de arquivos? Qual volume por usuário/mês?",
+    "options": ["Não", "<100MB", "100MB–1GB", ">1GB"]
+  },
+  {
+    "id": "retention",
+    "category": "Uploads/Disco",
+    "question": "Retenção de dados/logs necessária?",
+    "options": ["Não", "30 dias", "90 dias", "1 ano+"]
+  }
+]

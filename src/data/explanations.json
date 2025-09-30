@@ -1,0 +1,27 @@
+[
+  {
+    "category": "Frontend",
+    "text": "O Frontend é a parte visual de um site ou aplicativo. Se for apenas uma página \"parada\", um servidor web simples é suficiente. Mas se for interativo, como o React ou Angular, vai precisar de mais recursos. Pergunte ao desenvolvedor para saber mais.",
+    "example": "Imagine que o Frontend é como a fachada de uma loja. Se for uma loja pequena, só precisa de uma porta. Mas se for uma loja grande com muitas portas e janelas para as pessoas interagirem, precisa de mais espaço e recursos para funcionar bem."
+  },
+  {
+    "category": "Backend",
+    "text": "O Backend é como o cérebro de um sistema. Se ele vai processar muitos dados pesados ou inteligência artificial, vai precisar de mais poder de processamento e memória (CPU/RAM). Consulte o desenvolvedor para mais informações.",
+    "example": "Pense no Backend como a cozinha de um restaurante. Se o restaurante serve muitas pessoas e pratos elaborados, a cozinha precisa de muitos chefs e ingredientes para preparar tudo rapidamente e com qualidade."
+  },
+  {
+    "category": "Banco de Dados",
+    "text": "O Banco de Dados é onde todas as informações do sistema são armazenadas. Você pode usar um banco de dados existente ou criar um novo. Pergunte sobre a quantidade de dados e se precisa de alta disponibilidade.",
+    "example": "O Banco de Dados é como uma grande estante de livros. Se você tem muitos livros e quer encontrá-los facilmente, precisa de uma estante organizada e resistente para guardá-los com segurança."
+  },
+  {
+    "category": "Uploads/Disco",
+    "text": "Pergunte se os usuários vão enviar arquivos e qual é o tamanho médio desses arquivos. Quanto maiores os arquivos, mais espaço em disco e capacidade de rede serão necessários.",
+    "example": "Imagina que os Uploads/Disco são como enviar presentes pelo correio. Se os presentes forem grandes, você vai precisar de caixas maiores e mais fortes, além de mais espaço no caminhão para transportá-los."
+  },
+  {
+    "category": "Escalabilidade",
+    "text": "Se muitas pessoas vão acessar o sistema ao mesmo tempo, talvez seja necessário ter vários servidores para suportar a demanda. Consulte o desenvolvedor para mais orientações.",
+    "example": "Pense na Escalabilidade como uma festa muito popular. Se muitas pessoas querem entrar ao mesmo tempo, é melhor ter várias portas de entrada e mais espaço para todos se divertirem sem ficar lotado."
+  }
+]

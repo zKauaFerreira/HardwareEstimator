@@ -1,5 +1,10 @@
 [
   {
+    "category": "Geral",
+    "text": "A categoria Geral serve para identificar se o sistema a ser desenvolvido é parecido com algum já existente na organização. Isso pode ajudar a aproveitar soluções já implementadas, evitar retrabalho e facilitar estimativas de recursos. Consulte o desenvolvedor ou analista para saber se há sistemas similares.",
+    "example": "Imagine que você vai construir uma casa. Se já existe uma casa parecida na vizinhança, você pode usar o mesmo projeto ou aprender com a experiência anterior, economizando tempo e recursos."
+  },
+  {
     "category": "Frontend",
     "text": "O Frontend é a parte visual de um site ou aplicativo. Se for apenas uma página \"parada\", um servidor web simples é suficiente. Mas se for interativo, como o React ou Angular, vai precisar de mais recursos. Pergunte ao desenvolvedor para saber mais.",
     "example": "Imagine que o Frontend é como a fachada de uma loja. Se for uma loja pequena, só precisa de uma porta. Mas se for uma loja grande com muitas portas e janelas para as pessoas interagirem, precisa de mais espaço e recursos para funcionar bem."
